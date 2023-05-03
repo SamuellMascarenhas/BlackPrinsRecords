@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Prins Records</title>
+    <link rel="shortcut icon" href="IMAGE/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Kanit:wght@200;400&family=Oswald:wght@400;600&family=Vina+Sans&display=swap');
+    /* fonte importada*/
+ </style>
+
+
+<body class="b2">
+    <ul class="indice"><center><img src="IMAGE/BLACKPRINS_free-file.png"style="height: 100px; width=10px" alt="Logo"></center></ul>
+  <!--logo blackprinsrec-->
+    <div>
+       <ul>
+        <li>
+            <abbr title="Página Principal"><a href="site.html">HOME</a></abbr>
+           </li> 
+           <li><abbr title="Confira nosso último lançamento"><a href="https://youtu.be/75HhOfUeACI"target="_blank"rel="external">ÚLTIMO LANÇAMENTO</a></abbr></li>
+           <li><abbr title="Faça seu orçamento"><a href="https://wa.me/qr/R45KOORR5JUMB1"target="_blank"rel="external">ORÇAMENTO</a></abbr></li>
+           <li><abbr title="Portal Cliente"><a href="#">PORTAL CLIENTE</a></abbr></li>
+           <li><abbr title="Cadastre-se"><a href="cadastro.html">CADASTRE-SE</a></abbr></li>
+           <li style="float: right;"><abbr title="Faça o login"><a href="#">LOGIN</a></abbr></li>
+       </ul>
+       <!--menu de navegação-->
+    </div>
+    <main>
+       <div>
+        <h1 id="titulo"> CADASTRO </h1>
+        <br>
+       </div>
+       <form>
+           <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>NOME</strong></label>
+                <input type="text" name="NOME" style="width: 30em; height: 2em;" id="NOME" required>
+                <br>
+                <strong><label for="sobrenome">SOBRENOME</label></strong>
+                <input type="text" name="SOBRENOME" style="width: 30em; height: 2em;"  required>
+                <br>
+                <strong><label for="email">EMAIL</label></strong>
+            <input type="email" name="email" style="width: 30em; height: 2em;" id="email" required>
+            <br>
+            </div>
+        
+           </fieldset>
+
+           <div  class="campo">
+            <label><strong>O QUE BUSCA NA BLACK PRINS RECORDS:</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="produção musical" checked> Produção Musical
+            </label>
+            
+            <label>
+                <input type="radio" name="devweb" value="áudio visual"> Áudio Visual
+            </label>
+
+            <label>
+                <input type="radio" name="devweb" value="Edição"> Edição de Vídeo Clipe
+            </label>
+
+            <label>
+                <input type="radio" name="devweb" value="Designer/ArtWork"> Designer/ArtWork
+            </label>
+
+            <label>
+                <input type="radio" name="devweb" value="Impulsionamento"> Impulsionamento
+            </label>
+
+            <label>
+                <input type="radio" name="devweb" value="Outros"> Outros
+            </label>
+           </div>
+
+           <div  class="campo">
+            <label><strong>JÁ CONTRATOU ALGUM DE NOSSOS SERVIÇOS ANTERIORMENTE?</strong></label>
+            <select name="Serviços" id="serv">
+                <option selected disabled value="">Selecione</option>
+                <option value="SIM">Sim</option>
+                <option value="NÃO">Não</option>
+            </select>
+           </div>
+           <div  class="campo">
+            <br>
+            <label><strong>DIGA-NOS COMO A BLACK PRINS RECORDS PODE AGREGAR NA SUA ARTE:</strong></label>
+            <textarea rows="6" id="agregar" name="agregar"style="width: 26em;"></textarea>
+           </div>
+           
+           <button class="botao" type="submit">CONCLUIDO</button>
+       </form>
+
+    <footer>
+    BlackPrinsRec
+    </footer>
+</body>
+</html>
