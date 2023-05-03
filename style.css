@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('IMAGE/images\ \(4\).jpeg');
+}
+.indice{
+    background-color: rgb(250, 250, 250);
+    padding: 20px 22px;
+    border: 2px solid rgb(109, 109, 109) ;
+}
+img{
+    max-width: 350px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding:0%;
+    overflow: hidden;
+    font-family: 'Goldman','Oswald','Vina Sans';
+    font-size: 0.8em;
+    background-color: black;
+    border: 2px solid rgb(109, 109, 109);
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+menu#menu{
+    display: none;
+}
+span#burguer{
+    color: #ffffff;
+    background-color: #0a0a0a;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burguer:hover{
+    color:navy;
+    background-color: grey;
+}
+
+a:hover{
+    color:navy;
+    background-color: grey;
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+    background-color: rgb(250, 250, 250);
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.paragrafos{
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+.banner{
+    margin: 22px;
+    padding: 20px 22px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+main{
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+.selo{
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+.subtitulo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 15px 0px;
+}
+.projeto{
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+.sub{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 15px 0px;
+}
+.banner{
+    width:100%;
+    padding: 20px 22px;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+.tituloserv{
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+.serviço1{
+    background-color: rgba(128, 128, 128, 0.24);
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+    
+}
+.mix{
+    width:100%;
+    padding: 20px 22px;
+    max-width: 350px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.serviço2{
+    background-color: rgba(128, 128, 128, 0.24);
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+    
+}
+.visual{
+   border-radius: 30px;
+    width:100%;
+    padding: 20px 22px;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+.serviço3{
+    background-color: rgba(128, 128, 128, 0.24);
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+}
+.mkt{
+    width:100%;
+    padding: 20px 22px;
+    max-width: 350px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+p{
+  font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+  margin: 15px 0px;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.5em;
+
+}
+.missao{
+    font-family:'Oswald', sans-serif;
+}
+.visao{
+    font-family:'Oswald', sans-serif;
+}
+.valores{
+    font-family:'Oswald', sans-serif;
+}
+.CEO{
+    font-family:'Oswald', sans-serif;
+}
+.PRINCE{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 15px 0px;
+}
+.video{
+    background-color: black;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+.video > iframe{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+}
+footer{
+    color: #ffffff;
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+/*estilo da pág "cadastre-se"*/
+
+#titulo{
+    background-color: rgb(44, 44, 44);
+    font-family:'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+fieldset{
+    border: 0;
+}
+.b2{
+    font-family:'Oswald', sans-serif;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+input, select, textarea, button{
+    border-radius: 1px 1px 3px 3px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid black;
+    border-radius: 1px 1px 3px 3px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+}
+.campo select option{
+    padding-right: 1em;
+}
+.botao{
+    font-size: 1.6em;
+    font-family:'Oswald', sans-serif;
+    background-color:rgb(0, 0, 0);
+    border: 0;
+    margin-bottom: 3em;
+    color: rgb(252, 252, 252);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+}
+.botao:hover{
+    color:navy;
+    background-color: grey;
+    text-decoration: underline;
+}
+.botao:active{
+    color: black;
+    background-color: rgb(250, 250, 250);
+}
