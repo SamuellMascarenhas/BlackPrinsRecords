@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-image: url('IMAGE/images\ \(4\).jpeg');
+    background-image: url('IMAGE/fundo.jpg');
 }
 .indice{
     background-color: rgb(250, 250, 250);
@@ -95,6 +95,14 @@ main{
     font-family: 'Oswald', sans-serif;
     color: #ffffff;
 }
+
+.ceo{
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
 .subtitulo{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     margin: 15px 0px;
@@ -110,11 +118,9 @@ main{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     margin: 15px 0px;
 }
-.banner{
-    width:100%;
-    padding: 20px 22px;
-    max-width: 350px;
-    margin-bottom: 30px;
+.banner1{
+display: inline-block;
+   
 }
 .tituloserv{
     background-color: rgb(44, 44, 44);
@@ -130,13 +136,17 @@ main{
     
 }
 .mix{
+    border-radius: 30px;
     width:100%;
     padding: 20px 22px;
     max-width: 350px;
     margin-bottom: 30px;
-    border-radius: 30px;
 }
-
+.mixprod{
+    background-image: url('IMAGE/prod.jpg');
+    background-position: center center;
+    margin-bottom: 10px;
+}
 .serviço2{
     background-color: rgba(128, 128, 128, 0.24);
     text-align: center;
@@ -144,11 +154,16 @@ main{
     
 }
 .visual{
-   border-radius: 30px;
+   border-radius: 50px;
     width:100%;
     padding: 20px 22px;
     max-width: 350px;
     margin-bottom: 30px;
+}
+.v2{
+    background-image: url('IMAGE/visual.jpg');
+    margin-bottom: 30px;
+  
 }
 .serviço3{
     background-color: rgba(128, 128, 128, 0.24);
@@ -161,6 +176,11 @@ main{
     max-width: 350px;
     margin-bottom: 30px;
     border-radius: 30px;
+}
+.mkt2{
+    background-image: url('IMAGE/mkt.webp');
+    background-position: center center;
+    margin-bottom: 30px;
 }
 p{
   font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
@@ -183,8 +203,10 @@ p{
     font-family:'Oswald', sans-serif;
 }
 .PRINCE{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    margin: 15px 0px;
+    background-color: rgba(128, 128, 128, 0.24);
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+    
 }
 .video{
     background-color: black;
@@ -200,20 +222,31 @@ p{
     width:90%;
     height:90%;
 }
+
 footer{
     color: #ffffff;
     font-family:'Oswald', sans-serif;
     text-align: center;
     background-color: black;
+    padding: 8px;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+
 }
 
 /*estilo da pág "cadastre-se"*/
 
+
 #titulo{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(0, 0, 0);
     font-family:'Oswald', sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
+    border-radius: 8px;
 }
 fieldset{
     border: 0;
@@ -239,7 +272,7 @@ fieldset .grupo .campo{
     float: left;
     margin-right: 1em;
 }
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .campo select, .campo textarea{
     padding: 0.2em;
     border: 1px solid black;
     border-radius: 1px 1px 3px 3px;
@@ -248,8 +281,11 @@ fieldset .grupo .campo{
 }
 .campo select option{
     padding-right: 1em;
+
 }
+
 .botao{
+    border-radius: 8px;
     font-size: 1.6em;
     font-family:'Oswald', sans-serif;
     background-color:rgb(0, 0, 0);
@@ -259,6 +295,7 @@ fieldset .grupo .campo{
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+    cursor:pointer;
 }
 .botao:hover{
     color:navy;
@@ -268,4 +305,116 @@ fieldset .grupo .campo{
 .botao:active{
     color: black;
     background-color: rgb(250, 250, 250);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/*estilo página login */
+
+    .main-login{
+       background: #ffffff;
+    }
+.area-login{
+    padding: 15px;
+    border: #000000 solid 1px;
+    background-image: linear-gradient( rgb(117, 117, 117), rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0px 0px 10px 10px;
+   
+}
+.login{
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+.login form{
+    font-family:'Oswald', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.login input{
+    font-family: 'Goldman','Oswald','Vina Sans';
+    color: #000000;
+    margin-top: 10px;
+    background-color: rgb(236, 236, 236);
+    border: black 1px solid;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    text-transform: uppercase;
+
+}
+
+.hlogin{
+    font-family: 'Goldman','Oswald','Vina Sans';
+    color: #8b8b8b;
+    padding: 15px;
+    background-color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    border: #000000 solid 1px;
+}
+
+.input::placeholder{
+    font-family: 'Goldman','Oswald','Vina Sans';
+    color: #000000;
+    font-size: 14px;
+}
+
+.botao2{
+    margin-top: 9px;
+    border-radius:8px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Goldman','Oswald','Vina Sans';
+    display: block;
+    background-color: #5568fe ;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a0a0a;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+
+.login img{
+    width: 150px;
+}
+.login > h1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding: 18px;
+    border-radius: 30px;
+   
+}
+.login > p{
+    
+    font-family:'Oswald', sans-serif;
+    color:#ffffff
+}
+.login > p > a{
+    color:  #5568fe ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Oswald', sans-serif;
+
+}
+.login > p > a:hover{
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: underline;
 }

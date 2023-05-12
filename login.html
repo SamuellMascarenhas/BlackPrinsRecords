@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Prins Records</title>
+    <link rel="shortcut icon" href="IMAGE/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Kanit:wght@200;400&family=Oswald:wght@400;600&family=Vina+Sans&display=swap');
+    /* fonte importada*/
+ </style>
+
+
+<body class="b2"  onresize="mudouTamanho()">
+    <ul class="indice"><center><img src="IMAGE/BLACKPRINS_free-file.png"style="height: 100px; width=10px" alt="Logo"></center></ul>
+  <!--logo blackprinsrec-->
+  <div>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+        </span>
+   <menu id="menu">
+       <ul>
+        <li>
+            <abbr title="Página Principal"><a href="index.html">HOME</a></abbr>
+           </li>
+           <li><abbr title="Confira nosso último lançamento"><a href="https://youtu.be/75HhOfUeACI"target="_blank"rel="external">ÚLTIMO LANÇAMENTO</a></abbr></li>
+           <li><abbr title="Faça seu orçamento"><a href="https://wa.me/qr/R45KOORR5JUMB1"target="_blank"rel="external">ORÇAMENTO</a></abbr></li>
+           <li><abbr title="Portal Cliente"><a href="#">PORTAL CLIENTE</a></abbr></li>
+           <li><abbr title="Cadastre-se"><a href="cadastro.html">CADASTRE-SE</a></abbr></li>
+           <li style="float: right;"><abbr title="Faça o login"><a href="login.html">LOGIN</a></abbr></li>
+       </ul>
+   </menu>
+   <!--menu de navegação-->
+</div>
+    <main class="main-login">
+        <div class="hlogin">
+            <h1>Faça seu login</h1>  
+        </div>  
+        
+        <section class="area-login">
+        
+            <div class="login">
+                 
+              
+                <form>
+                    <center><img src="IMAGE/BLACKPRINS_free-file.png" style="width: 95px" alt=""></center>
+                    <input type="text" name="nome" placeholder="Usuário" required>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                    <button class="botao2" type="submit">Login</button>
+                   
+                </form>
+                <p>Ainda não tem cadastro? <a href="cadastro.html">Cadastre-se</p>
+            </div>
+        </section>
+    </main>
+       
+            <footer>
+                <a href="">BlackPrinsRec</a>
+                </footer>
+                
+                <script>
+                    function mudouTamanho(){
+                        if(window.innerWidth >= 768){
+                            menu.style.display = 'block'
+                        } else{
+                            menu.style.display = 'none'
+                        }
+                    }
+                    function clickMenu(){
+                        if(menu.style.display == 'block'){
+                            menu.style.display = 'none'
+                        }
+                        else{
+                            menu.style.display = 'block'
+                        }
+                    }
+                </script>
+            </body>
+            </html>
