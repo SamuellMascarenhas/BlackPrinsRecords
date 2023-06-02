@@ -190,15 +190,7 @@ p{
   line-height: 1.5em;
 
 }
-.missao{
-    font-family:'Oswald', sans-serif;
-}
-.visao{
-    font-family:'Oswald', sans-serif;
-}
-.valores{
-    font-family:'Oswald', sans-serif;
-}
+
 .CEO{
     font-family:'Oswald', sans-serif;
 }
@@ -222,6 +214,8 @@ p{
     width:90%;
     height:90%;
 }
+
+
 
 footer{
     color: #ffffff;
@@ -326,6 +320,15 @@ footer a{
     align-items: center;
     border-radius:0px 0px 10px 10px;
    
+}
+.area-login::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff,#45f3ff);
 }
 .login{
     border-radius: 10px;
