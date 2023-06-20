@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
 </head>
 
 <style>
@@ -45,10 +46,46 @@
 
         <h1 class="projeto">O PROJETO</h1>
         <h2 class="sub">PRETOS ARTISTAS É UM LUXO</h2>
-        <div class="banner1">
-           <img class="parallax"src="IMAGE/capa do EP 2.jpg"style="padding: 20px;" alt="CAPA">
-        <img  class="parallax" src="IMAGE/contra capa ep.jpg"style="padding:20px;"alt="CONTRA-CAPA">
+
+        <div class="sliders">
+
+            <div class="slides">
+                <!--RadioButton-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="IMAGE/capa do EP 2.jpg" alt="CAPA">
+                </div>
+                <div class="slide">
+                    <img src="IMAGE/contra capa ep.jpg" alt="CONTRA-CAPA">
+                </div>
+                <div class="slide">
+                    <img src="IMAGE/fotografia ref.jpg" alt="FOTOGRAFIA">
+                </div>
+                <div class="slide">
+                    <img src="IMAGE/fotograifa ref.jpg" alt="FOTOGRAFIA">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
         </div>
+        
         <p class="paragrafos"><strong>Pretos Artistas é um Luxo</strong>, é um projeto totalmente independente que visa à relevância cultural. Idealizando que a arte expressa, ressignifica e amplifica vozes. Pretos Artistas é um Luxo é um protesto! É uma manifestação! <br><br> "<b><i>Nossas vozes são nossas armas, você importa e sua voz importa.</b></i>"(THOMAS, Angie. O ódio que você semeia. In: O ódio que você semeia.[S.l.:s.n.],2018)</p>
         <!--O PROJETO-->
         <br>
@@ -111,5 +148,6 @@
             }
         }
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
